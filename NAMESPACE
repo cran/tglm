@@ -1,0 +1,4 @@
+import(BayesLogit, mvtnorm, coda, truncnorm)
+export(tglm.fit)
+importFrom("stats", "rgamma", "rnorm", "sd")
+#exportPattern("^[[:alpha:]]+")
